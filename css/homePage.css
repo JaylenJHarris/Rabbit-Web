@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #000;
+    color: #fff;
+    display: flex; 
+    justify-content: space-between;
+}
+.nav-left{
+    display: flex;
+}
+.nav-right{
+    font-size: ;
+}
+.nav-list{
+    list-style: none;
+}
+.nav-links{
+    
+}
