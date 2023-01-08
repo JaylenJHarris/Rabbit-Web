@@ -1,23 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto:ital,wght@1,500&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    background-color: #1c1c1c;
+}
+header{
+    position: fixed;
+    width: 100%;
 }
 .navbar{
     background-color: #000;
     color: #fff;
     display: flex; 
     justify-content: space-between;
-}
-.nav-left{
-    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+
 }
 .nav-right{
-    font-size: ;
+    margin-right: 2em;
 }
 .nav-list{
     list-style: none;
+    display: flex;
+    gap: 1em;
+    font-size: 28px;
+    font-family: 'Patua One', cursive;
 }
 .nav-links{
-    
+    text-decoration: none;
+    color: #fff;
+}
+.nav-links:hover{
+    color: #000;
+    background-color: #fff;
+}
+.nav-logo{
+    height: 62px;
+    border-radius: 32px;
+}
+.ron{ 
+    background-color: aqua;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #fff;
+}
+.page-img{
+    width: 100%;
+    height: auto;
 }
