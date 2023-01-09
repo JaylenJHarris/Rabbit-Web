@@ -6,9 +6,12 @@
 }
 body{
     background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
 }
 header{
     position: fixed;
+    top: 0;
     width: 100%;
 }
 .navbar{
@@ -18,7 +21,6 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 8px 12px;
-
 }
 .nav-right{
     margin-right: 2em;
@@ -49,6 +51,7 @@ header{
     justify-content: center;
     align-items: center;
     border: 5px solid #fff;
+    margin-top: 82px;
 }
 .page-img{
     width: 100%;
